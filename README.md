@@ -2,7 +2,7 @@
 
 ** a hema shop by pure js **
 
-![view](https://github.com/danial-barati/tic-tac-toe/assets/104683176/3a242cff-787d-4659-90c1-7c6a653ddeb8)
+![view](https://github.com/danial-barati/hema_shop/assets/104683176/de8c29db-5171-45ec-9387-83053197b500)
 
 - 🔗 [demo]([https://danial-barati.github.io/signup_form/](https://danial-barati.github.io/tic-tac-toe/))
 
