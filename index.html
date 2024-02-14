@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper.css" />
+    <link rel="stylesheet" href="assets/css/master.css" />
+    <link
+      rel="stylesheet"
+      href="assets/icon/fontello-214580f4/css/fontello.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/icon/icon/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body class="font-primary">
+    <main id="top" class="w-full">
+      <section id="bar" class="w-full mx-auto bg-[#3d667c] duration-300">
+        <header
+          class="w-full h-[70px] flex justify-between top-[-80px] duration-300"
+          data-status="off"
+        >
+          <nav class="mx-8 hidden lg:flex">
+            <ul
+              class="flex text-white text-[14px] h-full items-center font-semibold uppercase"
+            >
+              <li class="me-7 group">
+                <a
+                  href=""
+                  class="flex items-center duration-300 group-hover:text-[#ffffffa0] relative"
+                  >home<i
+                    class="bi bi-chevron-down ms-1 group-hover:rotate-180 duration-300 flex text-[13px]"
+                  ></i>
+                  <ul
+                    class="absolute left-0 bottom-[-155px] w-[200%] z-[10000] bg-white text-black opacity-0 invisible duration-300 group-hover:opacity-[1] group-hover:visible rounded-[5px] font-normal"
+                  >
+                    <li
+                      class="hover:bg-slate-700 duration-300 hover:text-white ps-3 py-2"
+                    >
+                      fashion
+                    </li>
+                    <li
+                      class="py-2 hover:bg-slate-700 duration-300 hover:text-white ps-3"
+                    >
+                      electronic
+                    </li>
+                    <li
+                      class="py-2 hover:bg-slate-700 duration-300 hover:text-white ps-3"
+                    >
+                      jewerly
+                    </li>
+                    <li
+                      class="hover:bg-slate-700 duration-300 hover:text-white ps-3 py-2"
+                    >
+                      bags
+                    </li>
+                  </ul>
+                </a>
+              </li>
+              <li class="me-7 group">
+                <a
+                  href=""
+                  class="flex items-center duration-300 group-hover:text-[#ffffffa0]"
+                  class="flex"
+                  >shop<i
+                    class="bi bi-chevron-down ms-1 text-[13px] group-hover:rotate-180 flex duration-300"
+                  ></i
+                ></a>
+              </li>
+              <li class="me-7 group">
+                <a
+                  href=""
+                  class="flex items-center duration-300 group-hover:text-[#ffffffa0]"
+                  >product<i
+                    class="bi bi-chevron-down ms-1 text-[13px] group-hover:rotate-180 duration-300 flex"
+                  ></i
+                ></a>
+              </li>
+              <li class="me-7 group">
+                <a
+                  href=""
+                  class="flex items-center duration-300 group-hover:text-[#ffffffa0]"
+                  >pages<i
+                    class="bi bi-chevron-down ms-1 text-[13px] group-hover:rotate-180 duration-300 flex"
+                  ></i
+                ></a>
+              </li>
+              <li class="group">
+                <a
+                  href=""
+                  class="flex items-center duration-300 group-hover:text-[#ffffffa0]"
+                  >blog<i
+                    class="bi bi-chevron-down ms-1 text-[13px] group-hover:rotate-180 duration-300 flex"
+                  ></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+          <figure class="flex items-center w-[100px] ms-3 lg:ms-0 lg:w-[250px]">
+            <a href="">
+              <img
+                src="assets/img/logo-white.png"
+                class="w-full object-cover"
+                alt=""
+              />
+            </a>
+          </figure>
+          <div class="flex text-white text-[18px] items-center me-3">
+            <button class="duration-300 hover:text-[#ffffffa0]">
+              <i class="bi bi-search"></i>
+            </button>
+            <button class="duration-300 hover:text-[#ffffffa0]">
+              <i class="bi bi-person mx-4"></i>
+            </button>
+            <button class="duration-300 hover:text-[#ffffffa0]">
+              <i class="bi bi-suit-heart me-4"></i>
+            </button>
+            <button class="duration-300 hover:text-[#ffffffa0]">
+              <i class="bi bi-basket me-4"></i>
+            </button>
+            <button id="openside" class="duration-300 hover:text-[#ffffffa0]">
+              <i class="bi bi-list flex text-[25px] lg:hidden"></i>
+            </button>
+          </div>
+        </header>
+
+        <!-- end of header**** -->
+
+        <div id="slides" class="w-full h-[60vh] relative lg:h-[100vh]">
+          <div
+            class="bg-bg1 bg-center w-full h-full bg-cover bg-no-repeat flex justify-end items-center opacity-1 duration-300"
+          >
+            <div
+              class="bg-[#0000007e] md:bg-transparent p-4 me-5 xl:me-24 lg:p-0"
+            >
+              <h2
+                class="text-white text-[18px] me-5 md:me-0 md:text-[30px] lg:text-[50px] uppercase font-bold"
+              >
+                under favorable <br />
+                gadgets
+              </h2>
+              <p
+                class="text-[13px] lg:text-[18px] hidden md:flex text-white my-5 capitalize me-5"
+              >
+                The curved display has a curvature level equivalent <br />
+                to that of a circle tracks the round.
+              </p>
+              <a
+                href=""
+                class="bg-black text-white uppercase mt-5 flex md:w-[140px] md:h-[50px] w-[110px] h-[35px] text-[13px] justify-center items-center duration-300 hover:bg-[#434343]"
+                >explore now</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="bg-bg2 bg-center w-full h-full top-0  left-0 bg-cover absolute flex justify-start items-center opacity-0 duration-300"
+          >
+            <div
+              class="bg-[#0000007e] md:bg-transparent p-4 ms-5 xl:ms-24 lg:p-0 h-fit"
+            >
+              <h2
+                class="text-white text-[18px] me-5 md:me-0 md:text-[30px] lg:text-[50px] uppercase font-bold"
+              >
+                top branded <br />
+                headphone
+              </h2>
+              <p
+                class="text-[13px] lg:text-[18px] hidden md:flex text-white my-5 capitalize me-5"
+              >
+                smart home gadget with
+                <span class="mx-1 text-yellow-300">50%</span> discount
+              </p>
+              <a
+                href=""
+                class="bg-black text-white uppercase mt-5 flex md:w-[140px] md:h-[50px] w-[110px] h-[35px] text-[13px] justify-center items-center duration-300 hover:bg-[#434343]"
+                >shop now</a
+              >
+            </div>
+          </div>
+          <button
+            id="firstslide"
+            class="w-[12px] h-[12px] border-2 rounded-[50%] absolute bottom-5 left-[50%] bg-white"
+          ></button>
+          <button
+            id="secondslide"
+            class="w-[12px] h-[12px] border-2 rounded-[50%] absolute bottom-5 left-[55%] lg:left-[51.5%]"
+          ></button>
+        </div>
+      </section>
+
+      <!-- end of section**** -->
+
+      <div
+        id="fadeblack"
+        class="fixed w-full h-[100vh] bg-[#0000008f] top-0 left-0 duration-300 hidden lg:hidden z-[9999999999999998]"
+      ></div>
+      <div
+        id="sidemenu"
+        class="w-[270px] bg-white h-[100vh] fixed top-0 p-3 uppercase text-[13px] font-medium overflow-y-auto duration-1000 left-[-270px] lg:hidden z-[9999999999999999]"
+      >
+        <button
+          id="btnclose"
+          class="w-full flex justify-between uppercase text-[13px] h-[40px] leading-[40px] cursor-pointer border-b-2 hover:bg-"
+        >
+          close menu <i class="bi bi-x-lg"></i>
+        </button>
+        <ul id="homeacc">
+          <li
+            class="w-full h-fit leading-[40px] flex flex-wrap justify-between border-b-2 cursor-pointer"
+            data-status="off"
+          >
+            home
+            <i class="bi bi-chevron-down"></i>
+            <ul class="w-full h-0 duration-300 overflow-hidden bg-[whitesmoke]">
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                fashion
+              </li>
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                electronic
+              </li>
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                bags
+              </li>
+              <li class="ps-2 hover:bg-[lightgray] duration-300">jewerly</li>
+            </ul>
+          </li>
+          <li
+            class="w-full h-fit leading-[40px] flex flex-wrap justify-between border-b-2 cursor-pointer"
+            data-status="off"
+          >
+            shop
+            <i class="bi bi-chevron-down"></i>
+            <ul class="w-full h-0 duration-300 overflow-hidden bg-[whitesmoke]">
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                collection page
+              </li>
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                shop page
+              </li>
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                shop other page
+              </li>
+            </ul>
+          </li>
+          <li
+            class="w-full h-fit leading-[40px] flex flex-wrap justify-between border-b-2 cursor-pointer"
+            data-status="off"
+          >
+            product
+            <i class="bi bi-chevron-down"></i>
+            <ul class="w-full h-0 duration-300 overflow-hidden bg-[whitesmoke]">
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                product page
+              </li>
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                product page types
+              </li>
+            </ul>
+          </li>
+          <li
+            class="w-full h-fit leading-[40px] flex flex-wrap justify-between border-b-2 cursor-pointer"
+            data-status="off"
+          >
+            pages
+            <i class="bi bi-chevron-down"></i>
+            <ul class="w-full h-0 duration-300 overflow-hidden bg-[whitesmoke]">
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                contact us
+              </li>
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                about us
+              </li>
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                icons
+              </li>
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                cms page
+              </li>
+              <li class="ps-2 hover:bg-[lightgray] duration-300">error 404</li>
+            </ul>
+          </li>
+          <li
+            class="w-full h-fit leading-[40px] flex flex-wrap justify-between border-b-2 cursor-pointer"
+            data-status="off"
+          >
+            blog
+            <i class="bi bi-chevron-down"></i>
+            <ul class="w-full h-0 duration-300 overflow-hidden bg-[whitesmoke]">
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                grid view
+              </li>
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                list view
+              </li>
+              <li class="border-b-2 ps-2 hover:bg-[lightgray] duration-300">
+                blog details
+              </li>
+              <li class="ps-2 hover:bg-[lightgray] duration-300">
+                left sidebar
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div>
+          <ul class="w-full py-8 border-b-2">
+            <li class="cursor-pointer">
+              <i class="bi bi-box-arrow-in-right text-[17px] me-2"></i>sign in
+            </li>
+            <li class="cursor-pointer">
+              <i class="bi bi-person-lock text-[17px] me-1"></i> register
+            </li>
+            <li class="cursor-pointer">
+              <i class="bi bi-person text-[17px] me-1"></i> my account
+            </li>
+          </ul>
+        </div>
+        <div class="w-full py-5 border-b-2">
+          <h3 class="font-semibold text-[14px] mb-3">need help?</h3>
+          <h4 class="mb-2">
+            <i class="bi bi-telephone me-2"></i>+989304252801
+          </h4>
+          <h4 class="mb-2">
+            <i class="bi bi-envelope me-2"></i> danial.barati1999@gmail.com
+          </h4>
+        </div>
+        <div class="w-full py-5">
+          <h3 class="mb-2">follow us</h3>
+          <a href="https://www.linkedin.com/in/danial-barati-0a9804291/"
+            ><i class="bi bi-linkedin text-[15px] me-2"></i
+          ></a>
+          <a href="https://github.com/danial-barati"
+            ><i class="bi bi-github text-[15px]"></i
+          ></a>
+        </div>
+      </div>
+
+      <!-- end of side bar **** -->
+      <section
+        class="w-full 2xl:container mx-auto bg-[#f7f7f7] flex justify-center"
+      >
+        <div class="xl:w-10/12 w-full my-10 flex flex-wrap justify-center">
+          <div class="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-5">
+            <div
+              class="flex w-full h-[50px] md:justify-center justify-start ps-3 lg:ps-0 group"
+            >
+              <div>
+                <i
+                  class="bi bi-truck flex justify-center items-center text-[28px] me-4 bg-white rounded-[50%] w-[50px] h-[50px] duration-500 group-hover:bg-black group-hover:text-white"
+                ></i>
+              </div>
+              <div>
+                <h3 class="text-[16px] font-semibold uppercase">
+                  free shipping & return
+                </h3>
+                <span class="text-[13px]"
+                  >Free Shipping on all orders over $99</span
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full md:w-6/12 lg:w-4/12 border-r-2 border-l-2 lg:mb-0 mb-5"
+          >
+            <div
+              class="flex md:justify-center justify-start h-[50px] ps-3 lg:ps-0 group"
+            >
+              <div>
+                <i
+                  class="bi bi-credit-card flex justify-center items-center text-[28px] me-4 bg-white rounded-[50%] w-[50px] h-[50px] duration-500 group-hover:bg-black group-hover:text-white"
+                ></i>
+              </div>
+              <div>
+                <h3 class="text-[16px] font-semibold uppercase">
+                  PROFESSIONAL SUPPORT
+                </h3>
+                <span class="text-[13px]"
+                  >We're there when you need us! 24/7</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-6/12 lg:w-4/12">
+            <div
+              class="flex md:justify-center justify-start h-[50px] group ps-3 lg:ps-0"
+            >
+              <div>
+                <i
+                  class="bi bi-currency-dollar flex justify-center items-center text-[28px] me-4 bg-white rounded-[50%] w-[50px] h-[50px] duration-500 group-hover:bg-black group-hover:text-white"
+                ></i>
+              </div>
+              <div>
+                <h3 class="text-[16px] font-semibold uppercase">
+                  MONEY BACK GUARANTEE
+                </h3>
+                <span class="text-[13px]">If goods have problems</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end of second section ***** -->
+
+      <section class="w-full 2xl:container mx-auto mt-14">
+        <div class="max-w-[1300px] mx-auto flex flex-wrap">
+          <div class="w-full flex justify-between mb-10 px-3">
+            <div>
+              <h4 class="uppercase font-extrabold text-[23px] mb-1">
+                new arrivals
+              </h4>
+              <span class="capitalize text-[13px]"
+                >Shop our new arrivals from established brands</span
+              >
+            </div>
+            <div>
+              <a
+                href=""
+                class="flex w-[140px] h-[40px] bg-black justify-center items-center uppercase text-[13px] text-white rounded-[3px]"
+                >shop now
+                <i class="bi bi-arrow-right ms-2"></i>
+              </a>
+            </div>
+          </div>
+          <div class="lg:w-3/12 self-stretch flex w-full p-3">
+            <div
+              class="w-full  bg-cover bg-bg3 flex flex-wrap justify-center content-center text-white bg-no-repeat p-5"
+            >
+              <h3 class="w-full text-[30px] text-center uppercase mb-4">
+                lifestyle <br />
+                collections
+              </h3>
+              <p class="text-center w-full">
+                shop our weekly edit of what's new in online at hema colletions
+              </p>
+              <a
+                href=""
+                class="flex w-[140px] h-[40px] rounded-[3px] text-[13px] justify-center items-center mt-4 uppercase bg-[#40667b] text-white"
+                >explore now</a
+              >
+            </div>
+          </div>
+          <div class="lg:w-9/12 w-full">
+            <div class="swiper swiper1">
+              <div id="fData1" class="swiper-wrapper">
+                <div class="swiper-slide p-3"></div>
+                <div class="swiper-slide p-3"></div>
+                <div class="swiper-slide p-3"></div>
+                <div class="swiper-slide p-3"></div>
+                <div class="swiper-slide p-3"></div>
+                <div class="swiper-slide p-3"></div>
+                <div class="swiper-slide p-3"></div>
+                <div class="swiper-slide p-3"></div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end of first api section********* -->
+
+      <section class="w-full 2xl:container mx-auto my-16">
+        <div class="max-w-[1300px] mx-auto flex flex-wrap">
+          <div class="w-full flex justify-between mb-10 px-3">
+            <div>
+              <h4 class="uppercase font-extrabold text-[23px] mb-1">
+                SHOP BY CATEGORY
+              </h4>
+              <span class="capitalize text-[13px]"
+                >Shop our new arrivals from established brands</span
+              >
+            </div>
+            <div>
+              <a
+                href=""
+                class="flex w-[180px] h-[45px] bg-black justify-center items-center uppercase text-[13px] text-white rounded-[3px]"
+                >view all category
+                <i class="bi bi-arrow-right ms-1"></i>
+              </a>
+            </div>
+          </div>
+          <div class="w-full">
+            <div class="swiper swiper2">
+              <div id="fData2" class="swiper-wrapper">
+                <div class="swiper-slide group p-3"></div>
+                <div class="swiper-slide group p-3"></div>
+                <div class="swiper-slide group p-3"></div>
+                <div class="swiper-slide group p-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end of category section ******* -->
+
+      <section class="w-full 2xl:container mx-auto mt-14 mb-10">
+        <div class="max-w-[1300px] mx-auto flex flex-wrap">
+          <div class="w-full flex justify-between mb-10 px-3">
+            <div>
+              <h4 class="uppercase font-extrabold text-[23px] mb-1">
+                THIS WEEK TOP PICKS
+              </h4>
+              <span class="capitalize text-[13px]"
+                >Shop our new arrivals from established brands</span
+              >
+            </div>
+            <div>
+              <a
+                href=""
+                class="flex w-[140px] h-[40px] bg-black justify-center items-center uppercase text-[13px] text-white rounded-[3px]"
+                >view more
+                <i class="bi bi-arrow-right ms-2"></i>
+              </a>
+            </div>
+          </div>
+          <div class="lg:w-9/12 w-full">
+            <div class="swiper swiper3">
+              <div id="fData3" class="swiper-wrapper">
+                <div class="swiper-slide p-3"></div>
+                <div class="swiper-slide p-3"></div>
+                <div class="swiper-slide p-3"></div>
+                <div class="swiper-slide p-3"></div>
+                <div class="swiper-slide p-3"></div>
+                <div class="swiper-slide p-3"></div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+          <div class="lg:w-3/12 w-full p-3 flex self-stretch">
+            <div
+              class="w-full  bg-cover bg-bg4 flex flex-wrap justify-center content-center text-white bg-no-repeat p-10"
+            >
+              <h3
+                class="w-full text-[30px] text-center uppercase mb-4 border-b-2 pb-2"
+              >
+                summer <br />
+                sale
+              </h3>
+              <div class="text-center w-full">
+                <h4 class="uppercase text-yellow-400 text-[25px] mb-3">
+                  30% off
+                </h4>
+                <br />
+                <span class="capitalize text-white"
+                  >On all new arrival product</span
+                >
+              </div>
+              <a
+                href=""
+                class="flex w-[140px] h-[40px] justify-center items-center mt-4 rounded-[3px] text-[13px]  uppercase bg-[#40667b] text-white"
+                >explore now</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- start ad section *** -->
+
+      <section class="w-full 2xl:container mx-auto">
+        <div class="max-w-[1300px] mx-auto flex flex-wrap">
+          <div class="w-full md:w-6/12 p-3">
+            <figure class="w-full group overflow-hidden relative">
+              <img
+                src="assets/img/demo4-ct-img1.jpg"
+                class="w-full group-hover:scale-110 duration-500"
+                alt=""
+              />
+              <figcaption
+                class="bg-white text-center absolute left-[50%] translate-x-[-50%] bottom-10 flex flex-wrap justify-center content-center w-[320px] h-[120px]"
+              >
+                <h3 class="uppercase font-bold text-[20px]">
+                  mobile accessories
+                </h3>
+                <span
+                  class="w-full flex text-[13px] my-2 justify-center capitalize text-[#171717]"
+                  >everything you love about design</span
+                >
+                <button
+                  class="uppercase border-b-2 border-gray-700 text-[14px]"
+                >
+                  shop now
+                </button>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="w-full md:w-6/12 p-3">
+            <figure class="w-full group overflow-hidden relative">
+              <img
+                src="assets/img/demo4-ct-img2.jpg"
+                class="w-full group-hover:scale-110 duration-500"
+                alt=""
+              />
+              <figcaption
+                class="bg-white text-center absolute left-[50%] translate-x-[-50%] bottom-10 flex flex-wrap justify-center content-center w-[320px] h-[120px]"
+              >
+                <h3 class="uppercase font-bold text-[20px]">
+                  laptop & computers
+                </h3>
+                <span
+                  class="w-full flex text-[13px] my-2 justify-center capitalize text-[#171717]"
+                  >effect if in up no depend</span
+                >
+                <button
+                  class="uppercase border-b-2 border-gray-700 text-[14px]"
+                >
+                  shop now
+                </button>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- end of ad section ****** -->
+
+      <section class="w-full 2xl:container mx-auto my-14">
+        <div class="max-w-[1300px] mx-auto flex flex-wrap">
+          <div class="w-full flex justify-between mb-10 px-3">
+            <div>
+              <h4 class="uppercase font-extrabold text-[26px] mb-1">
+                FOLLOW US ON INSTAGRAM
+              </h4>
+              <span class="capitalize text-[13px]">@Hema Instagram </span>
+            </div>
+            <div>
+              <a
+                href=""
+                class="flex w-[140px] h-[40px] bg-black justify-center items-center uppercase text-[13px] rounded-[3px] text-white"
+                >view gallery
+                <i class="bi bi-arrow-right ms-2"></i>
+              </a>
+            </div>
+          </div>
+          <div class="w-full flex flex-wrap">
+            <div class="w-6/12 sm:w-4/12 md:w-3/12 lg:w-1/5 p-2">
+              <div class="w-full relative group overflow-hidden">
+                <img
+                  src="assets/img/ele1.jpg"
+                  class="w-full group-hover:scale-110 duration-500"
+                  alt=""
+                />
+                <div
+                  class="absolute w-full duration-500 group-hover:opacity-[1] h-full bg-[#00000081] flex justify-center items-center top-0 left-0 opacity-0"
+                >
+                  <i class="bi bi-instagram text-white text-[19px]"></i>
+                </div>
+              </div>
+            </div>
+            <div class="w-6/12 sm:w-4/12 md:w-3/12 lg:w-1/5 p-2">
+              <div class="w-full relative group overflow-hidden">
+                <img
+                  src="assets/img/ele2.jpg"
+                  class="w-full group-hover:scale-110 duration-500"
+                  alt=""
+                />
+                <div
+                  class="absolute w-full duration-500 group-hover:opacity-[1] h-full bg-[#00000081] flex justify-center items-center top-0 left-0 opacity-0"
+                >
+                  <i class="bi bi-instagram text-white text-[19px]"></i>
+                </div>
+              </div>
+            </div>
+            <div class="w-6/12 sm:w-4/12 md:w-3/12 lg:w-1/5 p-2">
+              <div class="w-full relative group overflow-hidden">
+                <img
+                  src="assets/img/ele3.jpg"
+                  class="w-full group-hover:scale-110 duration-500"
+                  alt=""
+                />
+                <div
+                  class="absolute w-full duration-500 group-hover:opacity-[1] h-full bg-[#00000081] flex justify-center items-center top-0 left-0 opacity-0"
+                >
+                  <i class="bi bi-instagram text-white text-[19px]"></i>
+                </div>
+              </div>
+            </div>
+            <div class="w-6/12 sm:w-4/12 md:w-3/12 lg:w-1/5 p-2">
+              <div class="w-full relative group overflow-hidden">
+                <img
+                  src="assets/img/ele4.jpg"
+                  class="w-full group-hover:scale-110 duration-500"
+                  alt=""
+                />
+                <div
+                  class="absolute w-full duration-500 group-hover:opacity-[1] h-full bg-[#00000081] flex justify-center items-center top-0 left-0 opacity-0"
+                >
+                  <i class="bi bi-instagram text-white text-[19px]"></i>
+                </div>
+              </div>
+            </div>
+            <div class="w-6/12 sm:w-4/12 md:w-3/12 lg:w-1/5 p-2">
+              <div class="w-full relative group overflow-hidden">
+                <img
+                  src="assets/img/ele5.jpg"
+                  class="w-full group-hover:scale-110 duration-500"
+                  alt=""
+                />
+                <div
+                  class="absolute w-full duration-500 group-hover:opacity-[1] h-full bg-[#00000081] flex justify-center items-center top-0 left-0 opacity-0"
+                >
+                  <i class="bi bi-instagram text-white text-[19px]"></i>
+                </div>
+              </div>
+            </div>
+            <div class="w-6/12 sm:w-4/12 md:w-3/12 lg:w-1/5 p-2">
+              <div class="w-full relative group overflow-hidden">
+                <img
+                  src="assets/img/ele6.jpg"
+                  class="w-full group-hover:scale-110 duration-500"
+                  alt=""
+                />
+                <div
+                  class="absolute w-full duration-500 group-hover:opacity-[1] h-full bg-[#00000081] flex justify-center items-center top-0 left-0 opacity-0"
+                >
+                  <i class="bi bi-instagram text-white text-[19px]"></i>
+                </div>
+              </div>
+            </div>
+            <div class="w-6/12 sm:w-4/12 md:w-3/12 lg:w-1/5 p-2">
+              <div class="w-full relative group overflow-hidden">
+                <img
+                  src="assets/img/ele7.jpg"
+                  class="w-full group-hover:scale-110 duration-500"
+                  alt=""
+                />
+                <div
+                  class="absolute w-full duration-500 group-hover:opacity-[1] h-full bg-[#00000081] flex justify-center items-center top-0 left-0 opacity-0"
+                >
+                  <i class="bi bi-instagram text-white text-[19px]"></i>
+                </div>
+              </div>
+            </div>
+            <div class="w-6/12 sm:w-4/12 md:w-3/12 lg:w-1/5 p-2">
+              <div class="w-full relative group overflow-hidden">
+                <img
+                  src="assets/img/ele8.jpg"
+                  class="w-full group-hover:scale-110 duration-500"
+                  alt=""
+                />
+                <div
+                  class="absolute w-full duration-500 group-hover:opacity-[1] h-full bg-[#00000081] flex justify-center items-center top-0 left-0 opacity-0"
+                >
+                  <i class="bi bi-instagram text-white text-[19px]"></i>
+                </div>
+              </div>
+            </div>
+            <div class="w-6/12 sm:w-4/12 md:w-3/12 lg:w-1/5 p-2">
+              <div class="w-full relative group overflow-hidden">
+                <img
+                  src="assets/img/ele9.jpg"
+                  class="w-full group-hover:scale-110 duration-500"
+                  alt=""
+                />
+                <div
+                  class="absolute w-full duration-500 group-hover:opacity-[1] h-full bg-[#00000081] flex justify-center items-center top-0 left-0 opacity-0"
+                >
+                  <i class="bi bi-instagram text-white text-[19px]"></i>
+                </div>
+              </div>
+            </div>
+            <div class="w-6/12 sm:w-4/12 md:w-3/12 lg:w-1/5 p-2">
+              <div class="w-full relative group overflow-hidden">
+                <img
+                  src="assets/img/ele10.jpg"
+                  class="w-full group-hover:scale-110 duration-500"
+                  alt=""
+                />
+                <div
+                  class="absolute w-full duration-500 group-hover:opacity-[1] h-full bg-[#00000081] flex justify-center items-center top-0 left-0 opacity-0"
+                >
+                  <i class="bi bi-instagram text-white text-[19px]"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end of instagram section *** -->
+
+      <section
+        class="w-full 2xl:container mx-auto py-6 flex justify-center border-t-2"
+      >
+        <div class="lg:w-10/12 w-full">
+          <div class="swiper swiper4 px-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="assets/img/brandlogo1.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/brandlogo2.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/brandlogo3.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/brandlogo4.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/brandlogo5.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/brandlogo6.png" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="assets/img/brandlogo7.png" alt="" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end of logo section ****** -->
+
+      <section class="w-full 2xl:container mx-auto">
+        <div
+          class="w-full h-[250px] flex flex-wrap justify-center content-center bg-bg5 px-4 sm:px-0"
+        >
+          <h4
+            class="text-center text-white font-bold uppercase text-[16px] sm:text-[18px] w-full"
+          >
+            SIGN UP NEWSLETTER & GET 10% OFF
+          </h4>
+          <p
+            class="text-center w-full text-[11px] sm:text-[13px] text-white capitalize my-5"
+          >
+            Make sure that you never miss our interesting news and exclusive
+            promotion. No spam, Ever!
+          </p>
+          <input
+            class="w-full sm:w-6/12 lg:w-3/12 rounded-[4px] focus:border-2 duration-300 focus:border-[black] outline-none px-4 py-2 mb-3 placeholder:uppercase"
+            type="text"
+            placeholder="your email address"
+          />
+          <button
+            class="bg-black text-white sm:ms-5 flex w-full rounded-[4px] sm:w-[140px] h-[40px] justify-center items-center uppercase"
+          >
+            subscribes
+          </button>
+        </div>
+      </section>
+
+      <!-- end of subscribe *** -->
+
+      <section
+        class="w-full 2xl:container mx-auto my-7 md:my-14 overflow-hidden"
+      >
+        <div id="footacc" class="max-w-[1300px] flex flex-wrap mx-auto">
+          <div class="md:w-3/12 w-full px-3 mb-4 md:mb-0">
+            <div
+              data-st="off"
+              class="w-full flex justify-between cursor-pointer md:cursor-auto border-b-2 md:border-none"
+            >
+              <h3 class="text-[15px] font-bold uppercase pb-2">quick shop</h3>
+              <i class="bi bi-chevron-down md:hidden"></i>
+            </div>
+            <ul
+              class="text-[13px] capitalize md:pt-3 h-[0] md:h-auto overflow-hidden duration-500"
+            >
+              <li class="pt-3">bags & accessories</li>
+              <li class="my-2">tools & parts</li>
+              <li>vegetables</li>
+              <li class="my-2">jewerly</li>
+              <li>cosmetics</li>
+            </ul>
+          </div>
+          <div class="md:w-3/12 w-full px-3 mb-4 md:mb-0">
+            <div
+              data-st="off"
+              class="w-full flex justify-between border-b-2 md:border-none cursor-pointer md:cursor-auto"
+            >
+              <h3 class="text-[15px] font-bold uppercase pb-2">my account</h3>
+              <i class="bi bi-chevron-down md:hidden"></i>
+            </div>
+            <ul
+              class="text-[13px] capitalize md:pt-3 h-[0] md:h-auto overflow-hidden duration-500"
+            >
+              <li class="pt-3">my account</li>
+              <li class="my-2">view cart</li>
+              <li>my wishlist</li>
+              <li class="my-2">track my order</li>
+              <li>help</li>
+            </ul>
+          </div>
+          <div class="md:w-3/12 w-full px-3 mb-4 md:mb-0">
+            <div
+              data-st="off"
+              class="w-full flex justify-between border-b-2 md:border-none cursor-pointer md:cursor-auto"
+            >
+              <h3 class="text-[15px] font-bold uppercase pb-2">information</h3>
+              <i class="bi bi-chevron-down md:hidden"></i>
+            </div>
+            <ul
+              class="text-[13px] capitalize md:pt-3 h-[0] md:h-auto overflow-hidden duration-500"
+            >
+              <li class="pt-3">about us</li>
+              <li class="my-2">order history</li>
+              <li>return & exchange</li>
+              <li class="my-2">custom services</li>
+              <li>terms & condition</li>
+            </ul>
+          </div>
+          <ul class="text-[13px] capitalize md:w-3/12 w-full px-3">
+            <li class="mb-5 text-[15px] font-bold uppercase">
+              contact us
+            </li>
+            <li><i class="bi bi-geo-alt"></i> tehran satarkhan</li>
+            <li class="my-2"><i class="bi bi-telephone"></i> +989304252801</li>
+            <li class="mb-2">
+              <i class="bi bi-envelope"></i> danial.barati1999@gmail.com
+            </li>
+            <li><i class="bi bi-clock"></i> available for freelance</li>
+          </ul>
+        </div>
+      </section>
+
+      <footer class="w-full 2xl:container mx-auto bg-[#2e2e2e]">
+        <div
+          class="w-full flex flex-wrap justify-between text-[lightgray] px-5 py-2"
+        >
+          <div
+            class="w-full md:w-3/6 lg:w-2/6 text-center lg:text-start mt-2 lg:mt-0"
+          >
+            <a href="https://github.com/danial-barati"
+              ><i class="bi bi-github me-2 hover:text-white duration-300"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/danial-barati-0a9804291/"
+              ><i class="bi bi-linkedin hover:text-white duration-300"></i
+            ></a>
+          </div>
+          <div
+            class="w-full md:w-full order-3 lg:-order-none lg:w-2/6 flex justify-center"
+          >
+            <h2 class="text-center capitalize">
+              &copy; 2023 hema. designed by
+              <i class="bi bi-suit-heart text-[whitesmoke]"></i> from danial
+              barati
+            </h2>
+          </div>
+          <div
+            class="w-full md:w-3/6 lg:w-2/6 text-center lg:text-end my-2 lg:my-0"
+          >
+            <i class="icon-cc-paypal"></i>
+            <i class="icon-cc-visa ms-2"></i>
+          </div>
+        </div>
+      </footer>
+      <div
+        id="headtop"
+        class="w-[30px] h-[30px] flex justify-center items-center fixed bottom-5 right-5 bg-black rounded-[50%] duration-300 hover:bg-[#0000007d] z-[99999999999999999999] opacity-0 invisible"
+      >
+        <a href="#top"><i class="bi bi-chevron-up text-white"></i></a>
+      </div>
+      <div
+        id="modal"
+        class="w-full h-[100vh] bg-[#00000078] fixed top-0 left-0 z-[9999999999999999999] backdrop-blur-[5px] flex justify-center items-center opacity-0 invisible  duration-300"
+      ></div>
+    </main>
+  </body>
+
+  <script>
+    let _Fslide = document.getElementById("firstslide");
+    let _Sslide = document.getElementById("secondslide");
+    let _slides = document.querySelectorAll("#slides>div");
+    let _bar = document.getElementById("bar");
+
+    _Fslide.addEventListener("click", (e) => {
+      _bar.style.background = "#3d667c";
+      _Sslide.style.background = "transparent";
+      _Fslide.style.background = "white";
+      _slides[1].style.opacity = "0";
+      _slides[0].style.opacity = "1";
+      e.stopImmediatePropagation();
+    });
+    _Sslide.addEventListener("click", (e) => {
+      _bar.style.background = "#4d7d91";
+      _Fslide.style.background = "transparent";
+      _Sslide.style.background = "white";
+      _slides[1].style.opacity = "1";
+      _slides[0].style.opacity = "0";
+      e.stopImmediatePropagation();
+    });
+
+    setInterval(() => {
+      _Sslide.click();
+    }, 10000);
+    setInterval(() => {
+      _Fslide.click();
+    }, 20000);
+
+    // end of slider js ***
+
+    let _btnclose2 = document.getElementById("btnclose");
+    let _fadeblack = document.getElementById("fadeblack");
+    let _sidemenu = document.getElementById("sidemenu");
+    let _openS = document.getElementById("openside");
+
+    _btnclose2.addEventListener("click", () => {
+      _sidemenu.style.left = "-270px";
+      _fadeblack.classList.add("hidden");
+      _fadeblack.classList.remove("block");
+      _sidemenu.style.opacity = "0";
+      _openS.innerHTML =
+        '<i class="bi bi-list flex text-[25px] lg:hidden"></i>';
+    });
+
+    _openS.addEventListener("click", (e) => {
+      _sidemenu.style.left = "0";
+      _fadeblack.classList.add("block");
+      _fadeblack.classList.remove("hidden");
+      _sidemenu.style.opacity = "1";
+      e.stopImmediatePropagation();
+      _openS.innerHTML =
+        '<i class="bi bi-x-lg flex text-[20px] lg:hidden"></i>';
+    });
+
+    
+    let mainmT = document.getElementById('top')
+
+    mainmT.addEventListener("click", () => {
+      _sidemenu.style.left = "-270px";
+      _fadeblack.classList.add("hidden");
+      _sidemenu.style.opacity = "0";
+      _openS.innerHTML =
+        '<i class="bi bi-list flex text-[25px] lg:hidden"></i>';
+    });
+
+    _sidemenu.addEventListener("click", (e) => [e.stopImmediatePropagation()]);
+
+    // start of home accordian***
+
+    let homeacc = document.querySelectorAll("#homeacc>li");
+
+    let homeaccopen = document.querySelectorAll("#homeacc>li>ul");
+
+    homeacc.forEach((val, i) => {
+      val.addEventListener("click", () => {
+        let _status = val.getAttribute("data-status");
+
+        for (let index = 0; index < homeacc.length; index++) {
+          if (index != i) {
+            homeaccopen[index].style.height = "0";
+            homeacc[index].setAttribute("data-status", "off");
+          }
+        }
+
+        if (_status == "off") {
+          val.setAttribute("data-status", "on");
+          homeaccopen[i].style.height = homeaccopen[i].scrollHeight + "px";
+        } else {
+          homeaccopen[i].style.height = "0";
+          val.setAttribute("data-status", "off");
+        }
+      });
+    });
+
+    // start of scroll ***
+
+    let _header = document.getElementsByTagName("header")[0];
+    let headtop = document.getElementById("headtop");
+
+    window.addEventListener("scroll", () => {
+      let _status = _header.getAttribute("data-status");
+      let x = window.scrollY;
+
+      if (x > 100) {
+        headtop.style.opacity = "1";
+        headtop.style.visibility = "visible";
+      } else {
+        headtop.style.opacity = "0";
+        headtop.style.visibility = "hidden";
+      }
+
+      if (x > 200) {
+        _header.style.position = "fixed";
+        _header.style.background = "#2e2e2e";
+        _header.style.zIndex = "9999999999";
+        _header.classList.add("mb-[70px]");
+
+        if (_status == "off") {
+          setTimeout(() => {
+            _header.classList.remove("top-[-70px]");
+            _header.classList.add("top-[0px]");
+          }, 500);
+        }
+        _header.setAttribute("data-status", "on");
+      } else {
+        _header.classList.add("top-[-80px]");
+        _header.style.removeProperty("position");
+        _header.style.removeProperty("background");
+        _header.setAttribute("data-status", "off");
+        _header.classList.remove("mb-[70px]");
+      }
+    });
+
+    // ****fetch data
+
+    let _fdata1 = document.getElementById("fData1");
+
+    let _fdataa = document.querySelectorAll("#fData1>div");
+
+    async function getData() {
+      let _data = await fetch(
+        "https://65989c05cda24f1247339b7b.mockapi.io/users"
+      );
+      let MainD = await _data.json();
+
+      MainD.map((val, index) => {
+        let _fig = document.createElement("figure");
+        _fig.classList.add("w-full");
+        _fig.classList.add("h-full");
+        _fig.innerHTML = `
+                    <img
+                      src="${val.image}"
+                      class="w-full"
+                      alt=""
+                    />
+                    <figcaption class="w-full text-start">
+                      <span
+                        class="text-[#b4b4b4] mt-6 flex uppercase text-[13px]"
+                        >${val.title}</span
+                      >
+                      <p class="capitalize text-[15px] font-semibold my-2">
+                        ${val.description}
+                      </p>
+                      <h5 class="text-[15px] font-semibold">$${val.price}</h5>
+                    </figcaption>
+                    <div class="my-1 text-start">
+                      <i class="bi bi-star-fill text-[#ffb503] text-[13px]"></i>
+                      <i class="bi bi-star-fill text-[#ffb503] text-[13px]"></i>
+                      <i class="bi bi-star-fill text-[#ffb503] text-[13px]"></i>
+                      <i class="bi bi-star-fill text-[#ffb503] text-[13px]"></i>
+                      <i class="bi bi-star-fill text-[#ffb503] text-[13px]"></i>
+                    </div>
+                    <button onclick="fetchme(${index + 1})"
+                      class="bg-[#40667b] text-[13px] rounded-[3px] uppercase font-semibold w-[130px] h-[40px] flex justify-center items-center text-white cursor-pointer"
+                    >
+                      add to card
+                    </button>
+        
+        `;
+        _fdataa[index].appendChild(_fig);
+      });
+    }
+    getData();
+
+    let _modal = document.getElementById("modal");
+
+    console.log(_modal);
+
+    function fetchme(i) {
+      fetch("https://65989c05cda24f1247339b7b.mockapi.io/users/" + i)
+        .then((res) => res.json())
+        .then((item) => {
+          _modal.innerHTML = `
+          <figure class="bg-[whitesmoke] w-[450px] relative p-6 rounded-[3px]">
+          <span onclick="closeme()" class="absolute right-[23px] top-[25px] cursor-pointer group">
+            <i class="bi bi-x-lg duration-500 group-hover:text-red-600"></i>
+          </span>
+          <h4 class="uppercase text-center text-[17px] text-green-500 mb-3">
+            added to cart successfully!
+          </h4>
+          <img
+            src="${item.image}"
+            class="w-[250px] mx-auto rounded-[5px] overflow-hidden"
+            alt=""
+          />
+          <figcaption class="mt-4">
+            <span class="w-full flex text-[13px] text-[gray] uppercase"
+              >${item.title}</span
+            >
+            <span class="capitalize flex text-[15px]">${item.description}</span>
+            <div
+              class="bg-[#e7e7e7] w-full flex p-2 mt-2 flex-wrap justify-center text-[14px]"
+            >
+              <p class="w-full text-center capitalize">
+                there are <strong>1</strong> items in your cart
+              </p>
+              <span class="capitalize"
+                >total: <strong class="text-red-500">$${item.price}</strong></span
+              >
+            </div>
+          </figcaption>
+          <button onclick="closeme()"
+            class="block w-full font-bold py-2 uppercase text-center border-2 border-[lightgray] mt-4 mb-2 text-[15px] hover:text-red-500 duration-300"
+          >
+            continue shopping
+          </button>
+          <button onclick="closeme()"
+            class="block w-full py-2 bg-black text-[white] uppercase text-center border-2 text-[15px] duration-300 hover:text-red-500 border-black"
+          >
+            procced to checkout
+          </button>
+        </figure>
+          `;
+          _modal.classList.remove("opacity-0");
+          _modal.classList.remove("scale-0");
+          _modal.classList.remove("invisible");
+        });
+    }
+
+    function closeme() {
+      _modal.classList.add("opacity-0");
+      _modal.classList.add("invisible");
+    }
+
+    let _fdata2 = document.getElementById("fData2");
+
+    let _fdataa2 = document.querySelectorAll("#fData2>div");
+
+    async function getData2() {
+      let _data = await fetch(
+        "https://659e7f6d47ae28b0bd35fe41.mockapi.io/projectme"
+      );
+      let mainD = await _data.json();
+
+      mainD.map((item, i) => {
+        let _fig = document.createElement("figure");
+        _fig.classList.add("w-full");
+        _fig.classList.add("flex");
+        _fig.classList.add("flex-wrap");
+        _fig.classList.add("justify-center");
+        _fig.classList.add("relative");
+        _fig.classList.add("overflow-hidden");
+        _fig.classList.add("cursor-pointer");
+        _fig.innerHTML = `
+                    <img
+                      class="w-full flex group-hover:scale-105 duration-300"
+                      src="${item.image}"
+                      alt=""
+                    />
+                    <div class="w-full h-full absolute top-0 left-0 bg-[#00000080]"></div>
+                    <figcaption
+                      class="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+                    >
+                      <h3
+                        class="uppercase text-center w-full font-bold text-[15px] md:text-[24px] text-white mb-2"
+                      >
+                        ${item.title}
+                      </h3>
+                      <button
+                        class="text-white hover:text-red-600 duration-300 hover:border-b-[red] md:text-[14px] text-[12px] uppercase border-b-2"
+                      >
+                        shop now
+                      </button>
+                    </figcaption>
+        
+        `;
+        _fdataa2[i].appendChild(_fig);
+      });
+    }
+    getData2();
+
+    let _fdata3 = document.getElementById("fData3");
+    let _fdataa3 = document.querySelectorAll("#fData3>div");
+
+    async function getData3() {
+      const _data = await fetch(
+        "https://659edda647ae28b0bd36dc2a.mockapi.io/product"
+      );
+      const _mainD = await _data.json();
+
+      _mainD.map((val, i) => {
+        let _fig = document.createElement("figure");
+        _fig.classList.add("w-full");
+        _fig.classList.add("h-full");
+        _fig.innerHTML = `
+                    <img
+                      src="${val.image}"
+                      class="w-full"
+                      alt=""
+                    />
+                    <figcaption class="w-full text-start">
+                      <span
+                        class="text-[#b4b4b4] mt-6 flex uppercase text-[13px]"
+                        >${val.title}</span
+                      >
+                      <p class="capitalize text-[15px] font-semibold my-2">
+                        ${val.description}
+                      </p>
+                      <h5 class="text-[15px] font-semibold">$${val.price}</h5>
+                    </figcaption>
+                    <div class="my-1 text-start">
+                      <i class="bi bi-star-fill text-[#ffb503] text-[13px]"></i>
+                      <i class="bi bi-star-fill text-[#ffb503] text-[13px]"></i>
+                      <i class="bi bi-star-fill text-[#ffb503] text-[13px]"></i>
+                      <i class="bi bi-star-fill text-[#ffb503] text-[13px]"></i>
+                      <i class="bi bi-star-fill text-[#ffb503] text-[13px]"></i>
+                    </div>
+                    <button onclick="fetchme2(${i + 1})"
+                      class="bg-[#40667b] text-[13px] font-semibold w-[130px] h-[40px] flex justify-center items-center rounded-[3px] uppercase text-white cursor-pointer"
+                    >
+                      add to card
+                    </button>
+        
+        `;
+        _fdataa3[i].appendChild(_fig);
+      });
+    }
+    getData3();
+
+    function fetchme2(i) {
+      fetch("https://659edda647ae28b0bd36dc2a.mockapi.io/product/" + i)
+        .then((res) => res.json())
+        .then((item) => {
+          _modal.innerHTML = `
+          <figure class="bg-[whitesmoke] w-[450px] relative p-6 rounded-[3px]">
+          <span onclick="closeme()" class="absolute right-[23px] top-[25px] cursor-pointer group">
+            <i class="bi bi-x-lg duration-500 group-hover:text-red-600"></i>
+          </span>
+          <h4 class="uppercase text-center text-[17px] text-green-500 mb-3">
+            added to cart successfully!
+          </h4>
+          <img
+            src="${item.image}"
+            class="w-[250px] mx-auto rounded-[5px] overflow-hidden"
+            alt=""
+          />
+          <figcaption class="mt-4">
+            <span class="w-full flex text-[13px] text-[gray] uppercase"
+              >${item.title}</span
+            >
+            <span class="capitalize flex text-[15px]">${item.description}</span>
+            <div
+              class="bg-[#e7e7e7] w-full flex p-2 mt-2 flex-wrap justify-center text-[14px]"
+            >
+              <p class="w-full text-center capitalize">
+                there are <strong>1</strong> items in your cart
+              </p>
+              <span class="capitalize"
+                >total: <strong class="text-red-500">$${item.price}</strong></span
+              >
+            </div>
+          </figcaption>
+          <button onclick="closeme()"
+            class="block w-full font-bold py-2 uppercase text-center border-2 border-[lightgray] mt-4 mb-2 text-[15px] hover:text-red-500 duration-300"
+          >
+            continue shopping
+          </button>
+          <button onclick="closeme()"
+            class="block w-full py-2 bg-black text-[white] uppercase text-center border-2 text-[15px] duration-300 hover:text-red-500 border-black"
+          >
+            procced to checkout
+          </button>
+        </figure>
+          `;
+          _modal.classList.remove("opacity-0");
+          _modal.classList.remove("invisible");
+        });
+    }
+
+    // start accordian footer
+
+    let _footacc = document.querySelectorAll("#footacc>div>div");
+
+    _footacc.forEach((myval, indexs) => {
+      myval.addEventListener("click", () => {
+        let _status2 = myval.getAttribute("data-st");
+
+        for (let index = 0; index < _footacc.length; index++) {
+          if (index != indexs) {
+            _footacc[index].nextElementSibling.style.height = "0";
+            _footacc[index].setAttribute("data-st", "off");
+          }
+        }
+
+        if (_status2 == "off") {
+          myval.setAttribute("data-st", "on");
+          _footacc[indexs].nextElementSibling.style.height =
+            _footacc[indexs].nextElementSibling.scrollHeight + "px";
+        } else {
+          _footacc[indexs].nextElementSibling.style.height = "0";
+          myval.setAttribute("data-st", "off");
+        }
+      });
+    });
+
+    let _ul = document.querySelectorAll("#footacc>div>ul");
+
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 768) {
+        _ul.forEach((element) => {
+          element.style.removeProperty("height");
+        });
+      }
+    });
+  </script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script>
+    var swiper1 = new Swiper(".swiper1", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      breakpoints: {
+        300: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+          allowSlidePrev: true,
+          allowSlideNext: true,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+    var swiper2 = new Swiper(".swiper2", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      breakpoints: {
+        300: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+    var swiper3 = new Swiper(".swiper3", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        300: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 20,
+        },
+      },
+    });
+    var swiper4 = new Swiper(".swiper4", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      loop: true,
+      breakpoints: {
+        300: {
+          slidesPerView: 3,
+          spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 6,
+          spaceBetween: 20,
+        },
+      },
+    });
+  </script>
+</html>
