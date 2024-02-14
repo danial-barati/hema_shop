@@ -4,7 +4,7 @@
 
 ![view](https://github.com/danial-barati/hema_shop/assets/104683176/de8c29db-5171-45ec-9387-83053197b500)
 
-- 🔗 [demo]([https://danial-barati.github.io/signup_form/](https://danial-barati.github.io/tic-tac-toe/))
+- 🔗 [demo](https://danial-barati.github.io/hema_shop/)
 
 - 👩🏻‍💻 Developed by danial barati
 
